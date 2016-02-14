@@ -1,7 +1,4 @@
-**[View demo](http://romannurik.github.io/portfolio/)**
-
-I built my design portfolio with HTML/Swig/YAML, JavaScript/jQuery, Sass, and Gulp. If you're a designer
-and that's up your alley, you can use this as a starting point for your own portfolio.
+**[View site](http://www.madki.xyz/potfolio/)**
 
 ### Instructions
 
@@ -19,8 +16,8 @@ and that's up your alley, you can use this as a starting point for your own port
     gulp serve
     ```
 
-4. Edit the [data](https://github.com/romannurik/portfolio/tree/master/app/data) and
-   [media](https://github.com/romannurik/portfolio/tree/master/app/media) files. Your
+4. Edit the [data](https://github.com/madki/portfolio/tree/master/app/data) and
+   [media](https://github.com/madki/portfolio/tree/master/app/media) files. Your
    changes should show up on in the browser immediately while `gulp serve` is still
    running.
 
