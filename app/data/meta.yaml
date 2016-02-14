@@ -1,10 +1,9 @@
-title: Design Portfolio Demo
-subtitle: Your Title
+title: Developer Portfolio
+subtitle: "Madhu kiran (@madki)"
 intro: |
-    This is a demo portfolio built using [this template](https://github.com/romannurik/portfolio). Take a look at a real portfolio based on the template [here](http://roman.nurik.net/portfolio/).
+    This is a consolidation of the various projects I was involved with after my graduation. Having worked on various projects with little to nothing in common at times, I'm hoping I might stumble upon some pattern by typing them out here. 
 
-    Lorem ipsum In in consequat in sunt commodo voluptate quis amet dolore anim ex in fugiat cillum ad Ut id [laboris](http://www.google.com) irure ut id esse Duis et Ut sint elit cupidatat aliquip consectetur ut consectetur.
+    They are listed in reverse chronological order (or as close to it as possible)
 
-    Lorem ipsum Proident proident esse ut officia ut ad dolor sint proident in dolor ad mollit id ullamco dolor et nostrud.
 footer: |
-    Template by [Roman Nurik](http://roman.nurik.net) using HTML/Swig, JavaScript/jQuery, Sass, Gulp, and more. [See the source](https://github.com/romannurik/portfolio)
+    Template by [Roman Nurik](http://roman.nurik.net) using HTML/Swig, JavaScript/jQuery, Sass, Gulp, and more.
