@@ -6,7 +6,7 @@
   description: |
     Define is a open source system wide dictionary for android. It provides a easily dismissable floating UI (similar to facebook's chatheads) to the user upon copying text anywhere in the system. This allows users to find definitions of words without moving away from the current app. Currently Define supports Wiktionary (offline and in multiple languages), Wordnet and Urban Dictiory.
 
-    The major components of the app are background services that listen to clipboard changes and show the floating UIs. The app is written in a modular fashion using Dagger 2 and relies highly on RxJava. It has a rating of 4.5 stars and over 10,000 downlods.
+    The app handles rotation seamlessly and is optimized for all screen sizes. It is written in a modular fashion using MVP architecture, Dagger 2 and relies highly on RxJava. It takes advantange of runtime permissions that Android M offers. It has a rating of 4.5 stars and over 10,000 downlods.
 
   actions:
   - caption: Playstore
@@ -15,24 +15,27 @@
     url: https://github.com/workarounds/define
 
   pages:
-  - video: project1
+  - video: define
     color: '#c2d6f2'
     color2: '#3c6caf'
     device_frame: nexus5_light
 
-  - image: project1_detail1.png
-    color: '#c2d6f2'
-    color2: '#3c6caf'
-    extra_classes: no-scale
-    offset_media: 0, 22%
-    device_frame: nexus5_light
-    caption: Lorem ipsum Dolor non esse nostrud dolor in amet dolor anim sunt officia nulla voluptate ea tempor nostrud Excepteur. [Extra link](http://www.google.com)
-
-  - video: project1_archive
+  - image: define-landscape.png
     color: 'material orange 100'
     color2: 'material orange 600'
-    device_frame: browser
-    caption: Lorem ipsum Laborum esse exercitation et Duis irure sed Duis Duis aliqua non id in.
+
+  - image: define2.png
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+
+  - image: define4.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    device_frame: nexus5_light
+
+
 
 
 ###################################################################################################
