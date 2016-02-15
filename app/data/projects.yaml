@@ -4,13 +4,15 @@
   date: March 2015 – Present
   extra_classes: tall
   description: |
-    Lorem ipsum Aliquip qui enim dolore deserunt est eu nostrud in commodo do qui dolore dolor non do nostrud labore cupidatat aliquip proident ut mollit eiusmod ex culpa sint dolor velit incididunt laborum dolore qui [Duis aliqua cupidatat](http://www.google.com) eiusmod occaecat quis labore dolor labore nostrud ad ut quis magna reprehenderit officia laborum in ullamco anim dolore Duis eu minim dolor ex Ut et est deserunt veniam in sed labore ad labore culpa labore laboris dolor dolore in id sunt ut eu nulla dolore in.
+    Define is a open source system wide dictionary for android. It provides a easily dismissable floating UI (similar to facebook's chatheads) to the user upon copying text anywhere in the system. This allows users to find definitions of words without moving away from the current app. Currently Define supports Wiktionary (offline and in multiple languages), Wordnet and Urban Dictiory.
 
-    Incididunt anim enim non Ut culpa culpa incididunt est tempor magna cillum officia mollit magna enim nisi culpa eu eu elit ex in consectetur ad dolore amet elit proident adipisicing magna aute officia elit nisi commodo reprehenderit labore proident enim dolor laborum est labore aliqua non dolore occaecat cupidatat aute Excepteur sed veniam laboris veniam id.
+    The major components of the app are background services that listen to clipboard changes and show the floating UIs. The app is written in a modular fashion using Dagger 2 and relies highly on RxJava. It has a rating of 4.5 stars and over 10,000 downlods.
 
   actions:
-  - caption: Play store
+  - caption: Playstore
     url: https://play.google.com/store/apps/details?id=in.workarounds.define
+  - caption: Github
+    url: https://github.com/workarounds/define
 
   pages:
   - video: project1
@@ -36,22 +38,17 @@
 ###################################################################################################
 
 
-- name: Project 2
-  date: 2010 – 2014
+- name: Reachability
+  date: Dec 2015 – Present
   extra_classes: tall
   description: |
-    Lorem ipsum *Id eu aliquip cillum* ut anim in tempor non magna anim occaecat.
+    Reachability is an android application written in kotlin that aims to port the iPhone's reachability feature (double tap on home brings down the screen) to android devices (Lollipop and above). 
 
-    * Lorem ipsum Duis Duis proident laborum aliquip est sint deserunt qui tempor in anim sunt fugiat nisi sint proident elit esse.
-    * Lorem ipsum Nulla ea deserunt officia cillum dolore voluptate laborum mollit qui Ut quis.
-
-    Lorem ipsum Dolore laborum laborum eiusmod ex dolor nostrud magna ex voluptate quis et nisi consectetur mollit cillum pariatur aliquip ea labore consequat nostrud sed proident cupidatat dolor velit fugiat nostrud et Ut esse deserunt anim.
+    The app implements an `AccessibilityService` that captures the screen and displays it on a smaller more reachable surface. (thanks to new `MediaProjection` APIs). It is still under active development and hasn't been launched on playstore
 
   actions:
-  - caption: Action 1
-    url: http://www.google.com
-  - caption: Action 2
-    url: http://www.google.com
+  - caption: Github
+    url: https://github.com/madki/reachability
 
   pages:
   - video: project2_2014
@@ -81,24 +78,281 @@
 ###################################################################################################
 
 
-- name: Project 3
-  date: September 2012 – February 2013
+- name: ListUp
+  date: October 2015
   extra_classes: tall
   description: |
-    Lorem ipsum Eu voluptate veniam do magna dolore reprehenderit esse ad in amet Excepteur aute in consequat nulla in dolore reprehenderit commodo irure nostrud nulla nostrud nisi sed exercitation sed mollit.
+    ListUp is an android app that offers a platform for hyper local buy and sell. Developed this production ready app for the startup by implementing a pixel perfect design and integrating with the REST APIs. 
 
-    Duis dolore sit incididunt ut aliquip aliqua occaecat cillum sunt exercitation incididunt ut Excepteur magna velit fugiat laboris sed dolore incididunt occaecat laborum amet tempor fugiat voluptate officia mollit consequat in Excepteur ut in laboris proident est enim ut aliquip culpa do ex enim non sed ut exercitation anim est nostrud consequat ad voluptate officia aliquip minim anim velit.
-
-    Consectetur pariatur ex consequat elit esse magna commodo ea cillum Excepteur labore adipisicing.
+    The app is well recieved on the playstore with a rating of 4.9 stars.
 
   actions:
-  - caption: Action 1
-    url: http://www.google.com
-  - caption: Action 2
-    url: http://www.google.com
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.listup.android
 
   pages:
   - video: project3
     color: 'material teal 100'
     color2: 'material teal 500'
     device_frame: nexus5_light
+
+
+###################################################################################################
+
+
+- name: Swarachakra
+  date: April 2014 - May 2014
+  extra_classes: tall
+  description: |
+    Swarachakra is a keyboard designed for Indic languages. The letters of the Indic languges are different from Latin scripts as 2 or more of the unicodes combine to form various complex letters. So the standard qwerty keyboard layout is ineffective. So a novel keyboard layout with a different interaction model was developed.
+
+    The app extends a `InputMethodService` to provide a new keyboard. It's available in 12 Indic languages on Playstore. The capability to have build flavors is leveraged as the keyboard for each langugage has changes that are more that just string localisations
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/developer?id=Swarachakra+Team,+IDC,+IIT+Bombay
+  - caption: Github
+    url: https://github.com/swarachakra/swarachakra-android
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
+- name: Instilive
+  date: Sept 2014 - Jan 2015
+  extra_classes: tall
+  description: |
+    Instilive is an events portal designed for IIT Bombay. The website integrates seamlessly with facebook. It uses tags to categorize posts and has tools and architecture for moderation and posting rights to various categories. The website was used for Inter IIT 2015
+
+    Developed both the backed and the front end. The backend was developed over a LAMP stack using cakePHP and serves REST APIs. The front-end was developed in AngularJS. The front-end is opensourced on github.
+
+  actions:
+  - caption: Demo
+    url: http://workarounds.github.io/instilive/
+  - caption: Github
+    url: https://github.com/workarounds/instilive/
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
+- name: InstiMap
+  date: July 2014 - Aug 2014
+  extra_classes: tall
+  description: |
+    An android app that show cases a beautiful map of IIT Bombay overlayed with various points of interest. The app has a searchable index of all the locations inside IIT Bombay. It displays various locations and points of interest based on the zoom level. 
+
+    The app features delightful animations and color codes for categorizing and displaying the information.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=in.designlabs.instimap
+  - caption: Github
+    url: https://github.com/workarounds/instimap
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
+- name: Shopping Buddy
+  date: March 2014
+  extra_classes: tall
+  description: |
+    It is an android app that lists the offer available in near by stores. It also aims to help the users browse big stores by showing them relevant offers when they are walking through the stores. It uses BLE beacons to effectively determine the location of the user and show relevant details.
+
+    * Developed a UI that is inspired by google Newsstand.
+    * Utilized google location APIs to find a user's location.
+    * Used android Bluetooth adapter to scan for the beacons and triangulate a more accurate location of a user inside a building.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.shoppingbuddy.shb
+
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
+- name: Bundler
+  date: October 2015 - Present
+  extra_classes: tall
+  description: |
+    Bundler is a android library that aims to make passing intents and bundle type safe and easy. It uses annotation processing to generate broiler plate code that would be required to achieve this. The library is hosted on jcentre and the repo has gained a lot of popularity immediately after it's recent release.
+
+  actions:
+  - caption: Github
+    url: https://github.com/workarounds/bundler
+
+###################################################################################################
+
+
+- name: Flyrobe
+  date: March 2014
+  extra_classes: tall
+  description: |
+    It is an android app that offers a rental service for fashionable clothes. Consulted with them to improve the performance of the app and develop new features.
+
+    * Implemented a caching system to improve the load times.
+    * Developed a custom size picker widget that looks like a measuring tape.
+    * Improved the performance by debugging and eliminating memory leaks and threading issues.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.flyrobe.android
+
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
+- name: PSTakecare
+  date: Feb 2015 - July 2015
+  extra_classes: tall
+  description: |
+    A startup with focus in health care industry that aims to simplify the process of finding and consulting with a doctor. Developed an internal team management app that helps them organize the work force and collect data efficiently.
+
+    * Developed an app that consumes REST APIs and authenticates with tokens.
+    * Developed custom-views that directly bind to a json response and parse and build respective jsons based on the view-heirarchy
+
+  pages:
+  - video: project2_2014
+    color: 'material indigo 100'
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
+
+  - video: project2_2014_article
+    color: 'material teal 100'
+    color2: 'material teal 500'
+    device_frame: browser
+    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+
+  - image: project2_2014_vignette.png
+    color: 'material indigo 100'
+    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
+
+  - image: project2_2013_vignette.png
+    color: '#fff'
+    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
+
+  - image: project2_2011_vignette.png
+    color: 'material grey 100'
+    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+
+
+###################################################################################################
+
