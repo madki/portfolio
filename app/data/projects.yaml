@@ -80,7 +80,7 @@
   description: |
     ListUp is an android app that offers a platform for hyper local buy and sell. Developed this production ready app for the startup by implementing a pixel perfect design and integrating with the REST APIs. 
 
-    The app is well recieved on the playstore with a rating of 4.9 stars.
+    The app is well received on the playstore with a rating of 4.9 stars.
 
   actions:
   - caption: Playstore
@@ -161,7 +161,7 @@
   date: March 2014
   extra_classes: tall
   description: |
-    It is an android app that lists the offer available in near by stores. It also aims to help the users browse big stores by showing them relevant offers when they are walking through the stores. It uses BLE beacons to effectively determine the location of the user and show relevant details.
+    It is an android app that lists the offers available in near by stores. It also aims to help the users browse big stores by showing them relevant offers when they are walking through the stores. It uses BLE beacons to effectively determine the location of the user and show relevant details.
 
     * Developed a UI that is inspired by google Newsstand.
     * Utilized native android location APIs to find a user's location.
