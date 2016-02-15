@@ -23,6 +23,7 @@
   - image: define-landscape.png
     color: 'material orange 100'
     color2: 'material orange 600'
+    caption: The floating UI is optimized for landscape and bigger screen sizes
 
   - image: define2.png
     color: 'material indigo 100'
@@ -33,70 +34,6 @@
   - image: define4.png
     color: '#c2d6f2'
     color2: '#3c6caf'
-    device_frame: nexus5_light
-
-
-
-
-###################################################################################################
-
-
-- name: Reachability
-  date: Dec 2015 – Present
-  extra_classes: tall
-  description: |
-    Reachability is an android application written in kotlin that aims to port the iPhone's reachability feature (double tap on home brings down the screen) to android devices (Lollipop and above). 
-
-    The app implements an `AccessibilityService` that captures the screen and displays it on a smaller more reachable surface. (thanks to new `MediaProjection` APIs). It is still under active development and hasn't been launched on playstore
-
-  actions:
-  - caption: Github
-    url: https://github.com/madki/reachability
-
-  pages:
-  - video: project2_2014
-    color: 'material indigo 100'
-    color2: 'material indigo 500'
-    device_frame: nexus5_light
-
-  - video: project2_2014_article
-    color: 'material teal 100'
-    color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
-
-
-###################################################################################################
-
-
-- name: ListUp
-  date: October 2015
-  extra_classes: tall
-  description: |
-    ListUp is an android app that offers a platform for hyper local buy and sell. Developed this production ready app for the startup by implementing a pixel perfect design and integrating with the REST APIs. 
-
-    The app is well recieved on the playstore with a rating of 4.9 stars.
-
-  actions:
-  - caption: Playstore
-    url: https://play.google.com/store/apps/details?id=com.listup.android
-
-  pages:
-  - video: project3
-    color: 'material teal 100'
-    color2: 'material teal 500'
     device_frame: nexus5_light
 
 
@@ -118,28 +55,52 @@
     url: https://github.com/swarachakra/swarachakra-android
 
   pages:
-  - video: project2_2014
+  - video: swar
     color: 'material indigo 100'
     color2: 'material indigo 500'
     device_frame: nexus5_light
 
-  - video: project2_2014_article
+  - video: swarsize
     color: 'material teal 100'
     color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
+    device_frame: nexus5_light
+    caption: The keyboard supports two different layouts and sizes
 
-  - image: project2_2014_vignette.png
+  - image: swar-landscape.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    caption: Optimized for landscape
+
+
+###################################################################################################
+
+- name: ListUp
+  date: October 2015
+  extra_classes: tall
+  description: |
+    ListUp is an android app that offers a platform for hyper local buy and sell. Developed this production ready app for the startup by implementing a pixel perfect design and integrating with the REST APIs. 
+
+    The app is well recieved on the playstore with a rating of 4.9 stars.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.listup.android
+
+  pages:
+  - video: listup
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    device_frame: nexus5_light
+
+  - image: listup2.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    device_frame: nexus5_light
+
+  - image: listup3.png
     color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+    color2: 'material indigo 500'
+    device_frame: nexus5_light
 
 
 ###################################################################################################
@@ -159,28 +120,10 @@
     url: https://github.com/workarounds/instilive/
 
   pages:
-  - video: project2_2014
-    color: 'material indigo 100'
-    color2: 'material indigo 500'
-    device_frame: nexus5_light
-
-  - video: project2_2014_article
-    color: 'material teal 100'
-    color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+  - image: instilive.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    caption: Mobile optimized website built using AngularJS, Angular Material, LESS
 
 
 ###################################################################################################
@@ -200,28 +143,16 @@
     url: https://github.com/workarounds/instimap
 
   pages:
-  - video: project2_2014
+  - video: instimap
     color: 'material indigo 100'
     color2: 'material indigo 500'
     device_frame: nexus5_light
 
-  - video: project2_2014_article
+  - video: mapsearch
     color: 'material teal 100'
     color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+    device_frame: nexus5_light
+    caption: The app offers a fuzzy search to find places inside the campus
 
 
 ###################################################################################################
@@ -233,7 +164,7 @@
     It is an android app that lists the offer available in near by stores. It also aims to help the users browse big stores by showing them relevant offers when they are walking through the stores. It uses BLE beacons to effectively determine the location of the user and show relevant details.
 
     * Developed a UI that is inspired by google Newsstand.
-    * Utilized google location APIs to find a user's location.
+    * Utilized native android location APIs to find a user's location.
     * Used android Bluetooth adapter to scan for the beacons and triangulate a more accurate location of a user inside a building.
 
   actions:
@@ -242,28 +173,22 @@
 
 
   pages:
-  - video: project2_2014
+  - video: buddy
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    device_frame: nexus5_light
+
+  - image: buddy2.png
+    color: '#c2d6f2'
+    color2: '#3c6caf'
+    device_frame: nexus5_light
+    caption: Sign in with facebook/google
+
+  - image: buddy3.png
     color: 'material indigo 100'
     color2: 'material indigo 500'
     device_frame: nexus5_light
-
-  - video: project2_2014_article
-    color: 'material teal 100'
-    color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+    caption: Uses native android APIs to find current location
 
 
 ###################################################################################################
@@ -295,30 +220,16 @@
   - caption: Playstore
     url: https://play.google.com/store/apps/details?id=com.flyrobe.android
 
-
   pages:
-  - video: project2_2014
-    color: 'material indigo 100'
-    color2: 'material indigo 500'
+  - video: flyv
+    color: '#c2d6f2'
+    color2: '#3c6caf'
     device_frame: nexus5_light
 
-  - video: project2_2014_article
+  - video: flyh
     color: 'material teal 100'
     color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
-    color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
+    device_frame: nexus5_light
 
 
 ###################################################################################################
@@ -332,29 +243,10 @@
     * Developed an app that consumes REST APIs and authenticates with tokens.
     * Developed custom-views that directly bind to a json response and parse and build respective jsons based on the view-heirarchy
 
+
   pages:
-  - video: project2_2014
-    color: 'material indigo 100'
-    color2: 'material indigo 500'
-    device_frame: nexus5_light
-
-  - video: project2_2014_article
-    color: 'material teal 100'
-    color2: 'material teal 500'
-    device_frame: browser
-    caption: Lorem ipsum Culpa do Excepteur ut veniam veniam irure sit culpa qui Excepteur magna exercitation cillum proident id.
-
-  - image: project2_2014_vignette.png
-    color: 'material indigo 100'
-    caption: Lorem ipsum Excepteur sed eiusmod eu exercitation deserunt dolor occaecat aute voluptate proident ut ut sed.
-
-  - image: project2_2013_vignette.png
-    color: '#fff'
-    caption: Lorem ipsum In ad exercitation sunt culpa fugiat incididunt ad aliquip dolor irure sint nisi ut exercitation labore dolor cupidatat ea anim.
-
-  - image: project2_2011_vignette.png
+  - image: takecare3d.png
     color: 'material grey 100'
-    caption: Lorem ipsum Id laborum enim id ad mollit aliquip exercitation nulla in non nulla aliquip magna veniam.
 
 
 ###################################################################################################
