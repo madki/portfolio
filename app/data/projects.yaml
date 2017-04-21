@@ -1,5 +1,39 @@
 # List of my portfolio projects.
 
+- name: Headout (Android)
+  date: March 2016 - August 2016
+  extra_classes: tall
+  description: |
+    Developed the android app for [Headout](https://www.headout.com) from scratch. Used MVP pattern to write modular and testable code in combination with RxJava. Gave a talk about the RxMVP pattern in BLRDroid meetup.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.tourlandish.chronos
+
+  pages:
+  - video: headout
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    device_frame: nexus5_light
+
+
+###################################################################################################
+
+
+- name: Headout (Backend)
+  date: August 2016 - March 2017
+  extra_classes: tall
+  description: |
+    Worked in the backend team at [Headout](https://www.headout.com). Migrated the codebase to use gradle as the build tool. Led a team of 3 to automate bookings by integrating with third party vendor APIs. Wrote a java wrapper for jqgrid to generate admin panels using hibernate models.
+
+  actions:
+  - caption: Github
+    url: https://github.com/headout
+
+
+###################################################################################################
+
+
 - name: Define
   date: March 2015 – Present
   extra_classes: tall
@@ -104,6 +138,7 @@
 
 
 ###################################################################################################
+
 
 - name: Instilive
   date: Sept 2014 - Jan 2015
