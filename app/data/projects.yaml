@@ -1,17 +1,34 @@
 # List of my portfolio projects.
 
-- name: Headout (Android)
-  date: March 2016 - August 2016
+- name: Night Ready (React Native)
+  date: August 2017
   extra_classes: tall
   description: |
-    Developed the android app for [Headout](https://www.headout.com) from scratch. Used MVP pattern to write modular and testable code in combination with RxJava. Gave a talk about the RxMVP pattern in BLRDroid meetup.
+    Designed and developed a bar code scanner prototype for a startup Night Ready. The app scans a few barcodes and validates them against a internal database. Deployed it as a beta version to App Store and Playstore.
+
+  pages:
+  - video: night-ready
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    device_frame: nexus5_light
+
+
+###################################################################################################
+
+- name: St Tropez House (React Native)
+  date: July 2017 - September 2017
+  extra_classes: tall
+  description: |
+    Developed the android and iOS apps for [St Tropez House](https://www.sttropezhouse.com) from scratch. Used react native with redux to develop both the apps. Integrated with facebook login and REST APIs.
 
   actions:
   - caption: Playstore
-    url: https://play.google.com/store/apps/details?id=com.tourlandish.chronos
+    url: https://play.google.com/store/apps/details?id=com.sttropezhouse.droid
+  - caption: App store
+    url: https://itunes.apple.com/us/app/st-tropez-house-villa-rentals/id1256301364?mt=8
 
   pages:
-  - video: headout
+  - video: st-tropez-house
     color: 'material orange 100'
     color2: 'material orange 600'
     device_frame: nexus5_light
@@ -29,6 +46,27 @@
   actions:
   - caption: Github
     url: https://github.com/headout
+
+
+###################################################################################################
+
+
+- name: Headout (Android)
+  date: March 2016 - August 2016
+  extra_classes: tall
+  description: |
+    Developed the android app for [Headout](https://www.headout.com) from scratch. Used MVP pattern to write modular and testable code in combination with RxJava. Gave a talk about the RxMVP pattern in BLRDroid meetup.
+
+  actions:
+  - caption: Playstore
+    url: https://play.google.com/store/apps/details?id=com.tourlandish.chronos
+
+  pages:
+  - video: headout
+    color: 'material orange 100'
+    color2: 'material orange 600'
+    device_frame: nexus5_light
+
 
 
 ###################################################################################################
